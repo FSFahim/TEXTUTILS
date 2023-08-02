@@ -1,10 +1,4 @@
-import React, { useState } from "react";
-
 export default function About(props) {
-  const [myStyle, setMyStyle] = useState({
-    color:"black",
-    backgroundColor:"white"
-  })
   return (
     <div className="container" style={{color:props.mode ==="light"?"black":"white"}}>
       <h2>{props.title}</h2>
